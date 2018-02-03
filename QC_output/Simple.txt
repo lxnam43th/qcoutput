@@ -24,3 +24,5 @@ nam1
 4
 5
 >>>>>>> remotes/origin/master
+nam1
+nam2
