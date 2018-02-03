@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Config>
+ <Update>
+  <Appfile>QCV3OuputWin.exe</Appfile>
+  <User>HOGV</User>
+  <Url>\\172.25.6.48\Setup\GDIS\GDIS_V3\QC_Output\UPDATECODE_NEW(QA)\</Url>
+  <ServerManifest>ServerManifest.xml</ServerManifest>
+  <Getdata>NONAME.exe</Getdata>
+</Update>
+</Config>

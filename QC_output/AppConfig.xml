@@ -1,0 +1,40 @@
+<hoya>
+  <Mapping>
+    <DACMapping.connection.provider>hoya.database.DriverConnectionProvider</DACMapping.connection.provider>
+    <DACMapping.connection.driver_class>hoya.database.OledbDriver</DACMapping.connection.driver_class>
+    <DACMapping.connection.connection_string>Provider=OraOLEDB.Oracle.1;User Id=GDIS;Password=gdis;Data Source=gdisweb</DACMapping.connection.connection_string>
+    <DACMapping.connection.isolation>ReadCommitted</DACMapping.connection.isolation>
+    <DACMapping.table_message>MMESSAGECODE</DACMapping.table_message>
+    <DACMapping.table_message_key>ERRORCODE</DACMapping.table_message_key>
+    <DACMapping.table_message_type>ERRORTYPE</DACMapping.table_message_type>
+    <DACMapping.table_message_info>ERRORDESCRIPTION</DACMapping.table_message_info>
+    
+  </Mapping>
+  <location>
+    <lap1>LAP1</lap1>
+    <core>CORE</core>
+    <form>FORM</form>
+    <lap2>LAP2</lap2>
+    <inneredge>IDEP</inneredge>
+    <outeredge>ODEP</outeredge>
+    <prepolish>PREP</prepolish>
+    <finalpolish>FINLP</finalpolish>
+    <fp-cl>FPCL</fp-cl>
+    <inspection1>INS1</inspection1>
+    <cs>CMST</cs>
+    <sccl>CSCL</sccl>
+    <gx>GLTX</gx>
+    <incoming>MI</incoming>
+    <cutting>CUTT</cutting>
+    <sep>SEP</sep>
+    <ins2>INS2</ins2>
+  </location>
+  <facode name="factory1" code="F1">
+    <facodevalue>1</facodevalue>
+  </facode>
+  <Update>
+    <CurrentVersion>gdisweb(6/11)</CurrentVersion>
+    <AppFileName>QC_Input</AppFileName>
+    <TableName>dversioninfo</TableName>
+  </Update>
+</hoya>
